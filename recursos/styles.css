@@ -1,0 +1,50 @@
+@keyframes mudacor{ 
+    0%{
+        background-color: #610DFF;
+    }25%{
+        background-color:#5c36a1;
+    }75%{
+        background-color: blueviolet;
+    }100%{
+        background-color: #610DFF;
+    }
+}
+
+body{
+    max-width: 1000px;
+    margin: 0;
+    padding: 0;
+  
+}
+.marcador{
+    max-width: 1000px;
+}
+
+img{
+    
+    max-width: 1000px;
+    margin-left: 0%;
+    padding-left: 0%;
+
+}
+
+.cima{
+    animation: mudacor 3s infinite;
+    max-width: 1000px;
+    margin-left: 0%;
+    padding-left: 0%;
+}
+
+button{
+    background-color: coral;
+}
+
+.menu{
+    background-color: coral;
+    color: aliceblue;
+    margin-bottom: 5px;
+}
+
+.menu:hover{
+    background-color: #610DFF;
+}
